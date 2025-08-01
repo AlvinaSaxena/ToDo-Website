@@ -1,8 +1,8 @@
-✅ ToDo‑Website
+##✅ ToDo‑Website
 A full‑stack 🧠 Flask-based To‑Do List Web App to manage daily tasks 📝
 Create, mark complete ✅, and delete ❌ tasks in a simple, responsive interface.
 
-🚀 Features
+##🚀 Features
 ➕ Add new tasks
 
 ✅ Mark tasks as completed
@@ -15,20 +15,20 @@ Create, mark complete ✅, and delete ❌ tasks in a simple, responsive interfac
 
 🎨 Clean UI with HTML, CSS, and JavaScript
 
-🛠️ Tech Stack
+##🛠️ Tech Stack
 Layer	Technology Used
 💻 Frontend	HTML5, CSS3, JavaScript
 🐍 Backend	Python with Flask
 🗄️ Database	SQLite (todo.db)
 🧩 Templating	Jinja2 (via Flask templates)
 
-🧱 System Architecture
+##🧱 System Architecture
 pgsql
 Copy
 Edit
 User ↔️ Browser ↔️ Flask Server ↔️ SQLite DB
        HTML/CSS/JS   |    app.py   |   todo.db
-📦 Installation
+##📦 Installation
 Clone the repo:
 
 bash
@@ -49,7 +49,7 @@ bash
 Copy
 Edit
 pip install flask
-📁 Project Structure
+#📁 Project Structure
 bash
 Copy
 Edit
@@ -60,7 +60,7 @@ ToDo-Website/
 │   ├── index.html     # ➕ Task input page
 │   └── completed.html # ✅ Completed tasks
 └── README.md          # 📘 Project documentation
-▶️ Running the App
+##▶️ Running the App
 Start the Flask server:
 
 bash
@@ -79,7 +79,7 @@ View completed ones ✔️
 
 Remove tasks 🗑️
 
-🧪 Usage Example
+##🧪 Usage Example
 In app.py, the following routes are defined:
 
 / → Home page, task input
@@ -92,7 +92,7 @@ In app.py, the following routes are defined:
 
 All interactions dynamically update the todo.db file.
 
-🤝 Contributing
+##🤝 Contributing
 🍴 Fork this repo
 
 🛠️ Create your feature branch (git checkout -b feature/YourFeature)
@@ -103,14 +103,11 @@ All interactions dynamically update the todo.db file.
 
 📝 Open a Pull Request
 
-📄 License
-This project is licensed under the MIT License 📜
-
-👩‍💻 Author
+##👩‍💻 Author
 Alvina Saxena
 🔗 GitHub Profile
 
-🙌 Acknowledgements
+##🙌 Acknowledgements
 🌐 Flask — Micro web framework for Python
 
 🛢️ SQLite — Lightweight local DB
